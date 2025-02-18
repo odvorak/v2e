@@ -144,5 +144,5 @@ for subfolder in root_dir.iterdir():
             except subprocess.CalledProcessError as e:
                 print(f"Error processing {flight_mp4}: {e}")
 
-        hdf5_to_dsec(str(events_h5))
+            hdf5_to_dsec(str(events_h5))
 
