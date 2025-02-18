@@ -20,4 +20,4 @@ def read_hdf5(file_path):
             print(f"t: {t_data[i]}, x: {x_data[i]}, y: {y_data[i]}, p: {p_data[i]}, ms_to_idx: {ms_to_idx[i]}")
 
 # Example usage
-read_hdf5("E:\\EBAL_v10\\train\\D2\\events.h5")
+read_hdf5("C:\\Thesis\\v2e_old\\sample_output\\ebals_test.h5")
