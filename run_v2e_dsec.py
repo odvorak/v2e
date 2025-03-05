@@ -62,7 +62,7 @@ root_dir= Path("/root/train_40_videos/")
 
 # Iterate through all subfolders
 for subfolder in root_dir.iterdir():
-    if subfolder.is_dir():
+    if subfolder.is_dir() and subfolder != "D10-40":
         flight_mp4 = subfolder / "flight.mp4"
         events_h5 = subfolder / "events.h5"
 
