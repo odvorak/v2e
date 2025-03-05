@@ -58,7 +58,7 @@ v2e_path = "v2e.py"
 
 # Get the root directory containing subfolders
 #root_dir = Path("/root/train")
-root_dir= Path("/root/train_40_videos/")
+root_dir= Path("/root/add/")
 
 # Iterate through all subfolders
 for subfolder in root_dir.iterdir():
