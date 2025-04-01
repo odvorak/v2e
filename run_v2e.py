@@ -6,7 +6,7 @@ v2e_path = "v2e.py"
 # Create a dictionary of all available options and their default or blank values
 options = {
     "-o": "sample_output",  # OUTPUT_FOLDER
-    "--avi_frame_rate": "40",  # AVI_FRAME_RATE
+    "--avi_frame_rate": "30",  # AVI_FRAME_RATE
     "--output_in_place": "",  # OUTPUT_IN_PLACE
     "--overwrite": True,  # OVERWRITE
     "--unique_output_folder": "",  # UNIQUE_OUTPUT_FOLDER
@@ -42,8 +42,8 @@ options = {
     "--vid_slomo": "",  # VID_SLOMO    "--start_time": "",  # START_TIME
 
     "--slomo_stats_plot": False,  # SLOMO_STATS_PLOT
-    "-i": "sample_input/ebals_test.mp4",  # INPUT
-    "--input_frame_rate": "1000",  # INPUT_FRAME_RATE
+    "-i": "C:\\Thesis\\thesis_eval\\final_output.mp4",  # INPUT
+    "--input_frame_rate": "30",  # INPUT_FRAME_RATE
     "--input_slowmotion_factor": "",  # INPUT_SLOWMOTION_FACTOR
     "--stop_time": "",  # STOP_TIME
     "--crop": "",  # CROP
@@ -55,7 +55,7 @@ options = {
     "--dvs_vid_full_scale": "",  # DVS_VID_FULL_SCALE
     "--no_preview": False,  # NO_PREVIEW
     "--ddd_output": False,  # DDD_OUTPUT
-    "--dvs_h5": "ebals_test.h5",  # DVS_H5
+    "--dvs_h5": "visualization.h5",  # DVS_H5
     "--dvs_aedat2": "",  # DVS_AEDAT2
     "--dvs_text": "",  # DVS_TEXT
     "--label_signal_noise": False,  # LABEL_SIGNAL_NOISE

@@ -57,8 +57,8 @@ def hdf5_to_dsec(file_path):
 v2e_path = "v2e.py"
 
 # Get the root directory containing subfolders
-#root_dir = Path("/root/train")
-root_dir= Path("/root/add/")
+root_dir = Path("/root/train_30_videos")
+#root_dir= Path("E:\\EBAL_v10\\train_30_3\\PALD")
 
 # Iterate through all subfolders
 for subfolder in root_dir.iterdir():
@@ -94,8 +94,8 @@ for subfolder in root_dir.iterdir():
                 "--show_dvs_model_state": "",  # SHOW_DVS_MODEL_STATE
                 "--save_dvs_model_state": False,  # SAVE_DVS_MODEL_STATE
                 "--record_single_pixel_states": False,  # RECORD_SINGLE_PIXEL_STATES
-                "--output_height": "200",  # OUTPUT_HEIGHT
-                "--output_width": "200",  # OUTPUT_WIDTH
+                "--output_height": "360",  # OUTPUT_HEIGHT
+                "--output_width": "638",  # OUTPUT_WIDTH
                 "--dvs128": False,  # DVS128
                 "--dvs240": False,  # DVS240
                 "--dvs346": False,  # DVS346
@@ -109,7 +109,7 @@ for subfolder in root_dir.iterdir():
 
                 "--slomo_stats_plot": False,  # SLOMO_STATS_PLOT
                 "-i": str(flight_mp4),  # Input video
-                "--input_frame_rate": "1000",  # INPUT_FRAME_RATE
+                "--input_frame_rate": "30",  # INPUT_FRAME_RATE
                 "--input_slowmotion_factor": "",  # INPUT_SLOWMOTION_FACTOR
                 "--stop_time": "",  # STOP_TIME
                 "--crop": "",  # CROP
