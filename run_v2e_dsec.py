@@ -57,7 +57,7 @@ def hdf5_to_dsec(file_path):
 v2e_path = "v2e.py"
 
 # Get the root directory containing subfolders
-root_dir = Path("/root/train_30_videos")
+root_dir = Path("/root/repaired_flights")
 #root_dir= Path("E:\\EBAL_v10\\train_30_3\\PALD")
 
 # Iterate through all subfolders
