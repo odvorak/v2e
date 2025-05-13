@@ -109,7 +109,7 @@ for subfolder in root_dir.iterdir():
 
                 "--slomo_stats_plot": False,  # SLOMO_STATS_PLOT
                 "-i": str(flight_mp4),  # Input video
-                "--input_frame_rate": "30",  # INPUT_FRAME_RATE
+                "--input_frame_rate": "1000",  # INPUT_FRAME_RATE
                 "--input_slowmotion_factor": "",  # INPUT_SLOWMOTION_FACTOR
                 "--stop_time": "",  # STOP_TIME
                 "--crop": "",  # CROP
