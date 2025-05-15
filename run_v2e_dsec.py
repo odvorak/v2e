@@ -94,8 +94,8 @@ for subfolder in root_dir.iterdir():
                 "--show_dvs_model_state": "",  # SHOW_DVS_MODEL_STATE
                 "--save_dvs_model_state": False,  # SAVE_DVS_MODEL_STATE
                 "--record_single_pixel_states": False,  # RECORD_SINGLE_PIXEL_STATES
-                "--output_height": "200",  # OUTPUT_HEIGHT
-                "--output_width": "200",  # OUTPUT_WIDTH
+                "--output_height": "1024",  # OUTPUT_HEIGHT
+                "--output_width": "1024",  # OUTPUT_WIDTH
                 "--dvs128": False,  # DVS128
                 "--dvs240": False,  # DVS240
                 "--dvs346": False,  # DVS346
