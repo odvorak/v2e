@@ -57,13 +57,13 @@ def hdf5_to_dsec(file_path):
 v2e_path = "v2e.py"
 
 # Get the root directory containing subfolders
-root_dir = Path("/root/repaired_flights")
-#root_dir= Path("E:\\EBAL_v10\\train_30_3\\PALD")
+root_dir = Path("/root/leon")
+#root_dir= Path("E:\\leon_new")
 
 # Iterate through all subfolders
 for subfolder in root_dir.iterdir():
     if subfolder.is_dir():
-        flight_mp4 = subfolder / "flight.mp4"
+        flight_mp4 = subfolder / "leon.mp4"
         events_h5 = subfolder / "events.h5"
 
         if flight_mp4.exists():
